@@ -9,7 +9,7 @@ $(function() {
         });
     });
 
-    //animate avatar info
+    /*animate avatar info
     $('.avatar_pic,.tel_me').click(function(){
         $('.tip_avatar_bg').show().transition({ 
             opacity: 100,
@@ -35,7 +35,7 @@ $(function() {
                 });
             });
         });
-    });
+    });*/
 
     $('.tip_close').click(function(){
         $(this).transition({
@@ -58,7 +58,7 @@ $(function() {
         });
     });
 
-    //timeline action
+    /*timeline action
     $('.info_timeline ul li').mouseenter(function(){
         $(this).addClass('curr');
         $(this).parent().addClass('focus');
@@ -77,7 +77,7 @@ $(function() {
     $('.carousel').carousel({
         interval: false,
         wrap: true
-    });
+    });*/
 
     //product action
     function open_layout(){
